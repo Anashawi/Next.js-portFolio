@@ -8,12 +8,8 @@ function Header() {
       <div className="container flex items-center justify-between mx-auto ">
         {/*Logo */}
         <Link href="/">
-          <h1 className="text-4xl font-semibold ">
-            <img
-              src="/portfolioLogo.png"
-              alt="Logo"
-              className="w-[100px] h-full inline-block rounded-full "
-            />
+          <h1 className="text-2xl font-semibold animate-colorChange">
+            Portfolio
             <span className="text-accent">.</span>
           </h1>
         </Link>

@@ -40,7 +40,9 @@ export const MobileNav = () => {
 
         <div className="mt-40 mb-24 text-center text-2xl">
           <Link href={"/"}>
-            <h1 className="text-3xl font-semibold">Luke</h1>
+            <h1 className="text-3xl font-semibold animate-colorChange">
+              Portfolio
+            </h1>
             <span className="text-accent">.</span>
           </Link>
         </div>

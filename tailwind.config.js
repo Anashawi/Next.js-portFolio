@@ -32,6 +32,15 @@ module.exports = {
       lg: "960px",
       xl: "1200px",
     },
+    keyframes: {
+      colorChange: {
+        "0%, 100%": { color: "#00ff99" },
+        "50%": { color: "#66B76A" },
+      },
+    },
+    animation: {
+      colorChange: "colorChange 2s infinite",
+    },
   },
   plugins: [require("tailwindcss-animate")],
 };
