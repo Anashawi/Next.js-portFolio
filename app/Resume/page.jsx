@@ -179,7 +179,9 @@ export default function Resume() {
                           </h3>
                           <div className="flex items-center gap-3">
                             <span className="w-[6px] h-[6px] rounded-full bg-accent"></span>
-                            <p className="text-white/60">{item.Company}</p>
+                            <p className="text-white/60 w-[200px]">
+                              {item.Company}
+                            </p>
                           </div>
                         </li>
                       );
